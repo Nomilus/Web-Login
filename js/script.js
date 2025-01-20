@@ -21,4 +21,7 @@ document.getElementById('loginButton').addEventListener('click', function () {
 
     console.log('Username:', username);
     console.log('Password:', password);
+
+    document.getElementById('username').value = '';
+    document.getElementById('password').value = '';
 });
